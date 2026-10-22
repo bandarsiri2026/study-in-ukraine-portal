@@ -1,0 +1,694 @@
+*{
+    font-family: 'Amiri', serif;
+
+
+}
+body{
+    background-color: #e8e8e8;
+
+}
+.float{
+    float: right;
+    direction: rtl;
+}
+.links{
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Amiri', serif;
+    color: white !important;
+}
+.links:hover{
+    border-bottom: 1px solid #64a9ff;
+}
+.activeLink{
+    border-bottom: 1px solid #64a9ff;
+
+}
+
+.navbar-brand{
+    color: white !important;
+}
+.navbar a:hover{
+    text-decoration: none;
+}
+.cover{
+    background:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.55)),
+    rgba(0,0,0,0.55) url("../images/001.jpg") no-repeat center center fixed  ;
+    background-size: cover;
+    height:auto;
+    width: auto;
+
+}
+.btn-light-outline{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Amiri', serif;
+    height: 26px;
+}
+.btn-light-outline:hover{
+    color: white;
+}
+
+.dropdown-item{
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+.dropdown-item:hover{
+    color: #64a9ff;
+    background-color: transparent;
+}
+.dropdown-menu.show{
+    background-color: transparent;
+    border: none;
+}
+.btn:focus {
+    outline:0 !important;
+    box-shadow: none !important;
+}
+.logo{
+    font-weight: bold;
+    font-family: 'Amiri', serif;
+    color: #ffe000;
+    margin-left: -16px;
+    font-size: 19px;
+}
+.company{
+    color: #007bff;
+    left: -27px;
+    position: relative;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+
+}
+@media (max-width: 768px) {
+    .navbar-toggler{
+        background-color: white;
+        margin-right: 108px;
+    }
+    .cover{
+        height: auto;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar-toggler{
+        margin-right: 468px;
+    }
+    .cover{
+        height: auto;
+    }
+
+}
+
+/*end navbar*/
+
+/*start text in photo*/
+.textInPhoto{
+    color: white;
+    font-weight: bold;
+    font-family: 'Amiri', serif;
+    letter-spacing: 2px;
+    margin: 30px;
+}
+.textInPhoto h2{
+    font-size: 56px;
+}
+.textInPhoto h4{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+@media (max-width: 768px) {
+    .textInPhoto h4{
+        font-size: 15px;
+        width: 100%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .textInPhoto h4{
+        font-size: 22px;
+        width: 100%;
+    }
+}
+
+/*start search form*/
+.searchForm{
+    margin-top: 90px;
+    direction: rtl;
+}
+.formInput{
+    width: 80% !important;
+    margin-right: 6%;
+    background-color: transparent;
+    border: 1px solid #007bff;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: white !important;
+}
+.searchForm i{
+    right: -21px;
+    position: relative;
+    color: #ffe000;
+}
+.searchSubmit{
+    padding: 5px;
+    width: 80px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .formInput{
+        width: 60% !important;
+        margin-right: 6%;
+
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .formInput{
+        width: 75% !important;
+        margin-right: 6%;
+
+    }
+
+}
+
+/* start apply now*/
+.coverApply{
+
+    color: #fff;
+}
+.applyNow{
+    margin: 20px;
+}
+.applyNow h2{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 42px;
+}
+.applyNow p{
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 40px;
+    direction: rtl;
+
+}
+.applyNow span{
+    color: #007bff;
+}
+.applyNow i{
+    margin-bottom: 20px;
+    color: #ffe000;
+
+}
+.applyNow a{
+    background-color: transparent;
+    padding: 7px 18px;
+    border-radius: 8px;
+    border: 1px solid #007bff;
+    text-decoration: unset;
+    color: white;
+
+
+}
+
+/*start  Universities*/
+.univerDirection{
+    direction: rtl;
+}
+.universities{
+    margin: 20px;
+}
+.university{
+    margin-bottom: 10px;
+}
+.university h6{
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+.university a {
+    background-color: transparent;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #007ecf;
+    text-decoration: unset;
+}
+.university p{
+    text-align: right;
+
+}
+.university .card{
+    border: 1px solid #007ecf;
+
+}
+.university img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0.85;
+
+}
+.university:hover img{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity:1;
+
+}
+
+@media (max-width: 768px) {
+    .university h6{
+        font-size: 6px;
+    }
+    .university p{
+        font-size: 6px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .university h6{
+        font-size: 8px;
+    }
+    .university p{
+        font-size: 8px;
+    }
+}
+
+
+.card-img-top{
+    width: 98%;
+    margin-left: 1%;
+}
+.moreUniver{
+    display: flex;
+    margin-left: 10px
+}
+.moreUniver h3{
+    margin-top: 18px;
+
+}
+.moreUniver i{
+    color: #ffe000;
+    -webkit-transform:scaleX(-1);
+    transform: scaleX(-1);
+
+
+}
+.moreUniver a {
+    background-color: transparent;
+    font-size: 32px;
+    padding: 7px;
+    margin-right: 10px;
+    border-radius: 8px;
+    border: 1px solid #007ecf;
+    text-decoration: unset;
+}
+@media (max-width: 768px) {
+    .moreUniver h3{
+        font-size: 12px;
+    }
+    .moreUniver i{
+        font-size: 43px;
+    }
+    .moreUniver a{
+        font-size: 16px;
+        margin-left: 9px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .moreUniver h3{
+        font-size: 16px;
+    }
+    .moreUniver i{
+        font-size: 50px;
+    }
+    .moreUniver a {
+        margin-left: 17px;
+    }
+}
+
+/*start why ukraine*/
+.coverWhy{
+    background:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    rgba(0,0,0,0.75) url("../images/why.jpg") no-repeat center center fixed  ;
+    background-size: cover;
+    min-height:450px;
+    width: auto;
+    color: white;
+    margin-top: 20px;
+    direction: rtl;
+}
+.coverWhy h2{
+    margin: 20px;
+    text-align: center;
+}
+.coverWhy h3{
+    text-align: center;
+    border-bottom: 1px solid #ffe000;
+    padding-bottom: 10px;
+
+}
+.coverWhy p{
+    text-align: right;
+    font-size: 20px;
+}
+.coverWhy img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 21%;
+    margin-bottom: 15px;
+    opacity: 0.6;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+.coverWhy img:hover{
+    opacity:1;
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+}
+@media (max-width: 768px) {
+    .coverWhy img{
+        margin-left: 19%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .coverWhy img {
+        margin-left: 0;
+    }
+
+    .coverWhy h3 {
+        font-size: 18px;
+    }
+
+    .coverWhy p {
+        font-size: 13px;
+    }
+}
+/* start photo album*/
+.photoAlbum img{
+    box-shadow: 0 10px 21px 2px #757474;
+    height: 193.75px;
+    width: 255px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    opacity: 0.86;
+
+}
+.photoAlbum img:hover{
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    .photoAlbum img{
+        height: 140px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .photoAlbum img{
+        height: 140px;
+    }
+}
+
+/* start contact us */
+.coverContactus{
+    direction: rtl;
+    background:  linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    rgba(0,0,0,0.75) url("../images/contact-us.jpg") no-repeat center center fixed  ;
+    background-size: cover;
+    min-height:450px;
+    width: auto;
+    color: white;
+    margin-top: 20px;
+}
+.coverContactus h2{
+    margin-top: 20px;
+}
+.coverContactus i{
+    position: absolute;
+    right: 47%;
+    top: 15%;
+    color: #ffe000;
+
+}
+.coverContactus input[type="text"]{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid #007bff;
+
+}
+.coverContactus input[type="text"]:focus {
+    background-color: white;
+}
+.coverContactus textarea{
+    width: 100% !important;
+    height: 225px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: transparent;
+    border: 1px solid #007bff;
+
+}
+.divTextarea{
+    margin-top: 129px !important;
+    margin-bottom: 10px;
+}
+.divTextarea button{
+    background-color: transparent;
+    color: white;
+    border: 1px solid #007bff;
+}
+@media (max-width: 768px) {
+    .coverContactus i{
+        right: 41% !important;
+        top: 8.5% !important;
+    }
+    .coverContactus h2{
+        margin-bottom: 50px;
+    }
+    .divTextarea{
+        margin-top: -7px !important;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .coverContactus i{
+        right:45% !important;
+        top:12% !important; ;
+    }
+    .divTextarea {
+        margin-top: 129px !important;
+    }
+
+}
+/* start gerb*/
+.gerb{
+    margin-top: 20px;
+}
+.gerb img{
+    max-height: 162px;
+    position: relative;
+    left:28%;
+    width: 155px;
+    opacity: 0.8;
+}
+.gerb img:hover{
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    .gerb img{
+        height: 100px;
+        left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .gerb img{
+        left: 21% !important;
+        width: 110px;
+    }
+
+}
+/* start footer*/
+.footer{
+    direction: rtl;
+    text-align: right;
+    background-color: #2f2f2f;
+    color: white;
+}
+.footer h3{
+    margin-top: 20px;
+}
+.footer .gmailIcon{
+    border-radius: 10px;
+    width: 32px;
+    margin-left: 2px;
+
+}
+.footer img:last-of-type{
+    max-width: 118px;
+    margin-bottom: 13px;
+}
+.footer i:last-of-type{
+    margin-left: 4px;
+
+}
+.copyright{
+    background-color: #1b1e21;
+    padding: 10px;
+}
+.copyright span{
+    color:#007bff ;
+}
+@media (max-width: 768px) {
+    .footer{
+        font-size: 13px;
+    }
+
+}
+/*start scroll to top*/
+#scroll-top
+{
+    width: 50px;
+    height: 40px;
+    color: #2e8ffa;
+    background-color: transparent;
+    text-align: center;
+    position: fixed;
+    left: 15px;
+    bottom: 71px;
+    z-index: 9999;
+    display: none;
+    cursor: pointer;
+    opacity: 0.7;
+}
+#scroll-top:hover
+{
+    opacity: 1;
+}
+
+/*pages*/
+/**/
+/**/
+/**/
+/*start about us page*/
+.aboutUsPage{
+    margin-top:20px;
+    text-align: right;
+    direction: rtl;
+}
+.aboutUsPage h2{
+    color: #2e8ffa;
+    font-weight: bold;
+}
+.aboutUsPage p{
+    line-height: 50px;
+    font-size: 21px;
+}
+/*start contact us page*/
+.contactUsPage{
+  margin-top:20px;
+  text-align: right;
+  direction: rtl;
+}
+.contactUsPage h2{
+    color: #2e8ffa;
+    font-weight: bold;
+}
+.contactUsPage h6{
+  font-size: 21px
+}
+@media (max-width: 768px){
+    .iContactUs{
+        top:8% !important;
+    }
+}
+
+.contactUsPage p{
+  line-height: 50px;
+  font-size: 19px;
+}
+.texareaPage{
+    height: 284px !important;
+}
+/*start fee page*/
+.feePage{
+    margin-top:20px;
+    text-align: right;
+    direction: rtl;
+}
+.feePage h2{
+    color: #2e8ffa;
+    font-weight: bold;
+}
+.feePage p{
+  line-height: 50px;
+  font-size: 21px;
+}
+.tableFee{
+    text-align: right;
+    direction: rtl;
+    font-size: 21px;
+}
+/*start universities page*/
+.universitiesPage {
+    margin-top:20px;
+    text-align: right;
+    direction: rtl;
+}
+.universitiesPage h2{
+    color: #2e8ffa;
+    font-weight: bold;
+}
+
+.universityPage{
+    margin-bottom: 10px;
+    text-align: right;
+    direction: rtl;
+}
+.universityPage h3{
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.universityPage p{
+    line-height: 35px;
+    font-size: 21px;
+    text-indent: 14px;
+}
+
+
+.universityPage img{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    opacity: 0.85;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 21px 2px #757474;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.universityPage:hover img{
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1;
+}
+@media (max-width: 768px) {
+    .universityPage p{
+        line-height: 15px;
+        font-size: 13px;
+
+    }
+}
