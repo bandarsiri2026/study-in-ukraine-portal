@@ -58,6 +58,18 @@ No Git history exists for this project, so dates come from dependency versions, 
 - Content is hard-coded in Blade templates and language files rather than in a CMS — a deliberate scope decision for a small marketing site at the time.
 - Laravel 5.6 is end-of-life; treat this as legacy code, not a current framework reference.
 
+## Screenshots
+
+Captured locally by running the app in Docker (PHP 7.4 + MySQL 5.7), see [portfolio/local-run](https://github.com/bandarsiri2026/portfolio#run-any-project-locally).
+
+![Home page (EN) with the university catalogue and search](portal-universities.png)
+
+*Home page (EN) with the university catalogue and search*
+
+![Same site in Arabic (RTL layout via laravel-localization)](portal-ar.png)
+
+*Same site in Arabic (RTL layout via laravel-localization)*
+
 ## License
 
 MIT — see [LICENSE](LICENSE). The code is released under MIT; third-party assets (client product photos, fonts, brand imagery) are not covered by this license and belong to their respective owners.
