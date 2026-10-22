@@ -60,15 +60,16 @@ No Git history exists for this project, so dates come from dependency versions, 
 
 ## Screenshots
 
-Captured locally by running the app in Docker (PHP 7.4 + MySQL 5.7), see [portfolio/local-run](https://github.com/bandarsiri2026/portfolio#run-any-project-locally).
+Captured locally by running the app in Docker (PHP 7.4 + MySQL 5.7); see [local run instructions](https://github.com/bandarsiri2026/portfolio/tree/main/local-run).
 
-![Home page (EN) with the university catalogue and search(screenshots/portal-universities.png)
+![Study in Ukraine portal - home page with university catalogue](screenshots/portal-universities.png)
 
-*Home page (EN) with the university catalogue and search*
+*Study in Ukraine portal - home page with university catalogue*
 
-![Same site in Arabic (RTL layout via laravel-localization)(screenshots/portal-ar.png)
+![Same site in Arabic, RTL layout via laravel-localization](screenshots/portal-ar.png)
 
-*Same site in Arabic (RTL layout via laravel-localization)*
+*Same site in Arabic, RTL layout via laravel-localization*
+
 
 ## License
 
